@@ -129,15 +129,9 @@ class Game {
             player.rank += 1;
             player.updateanimalsAtEnd(player.rank);
 
-          //  rank += 1;
-          //  Player.updateanimalsAtEnd(rank);
-
-          //  player.rank += 1;
-          //  Player.updateanimalsAtEnd(player.rank);
-
 
            player.update();
-           //this.showRank();
+           this.showRank();
          } 
          if (keyIsDown(UP_ARROW)) {
           player.positionY += 10;
